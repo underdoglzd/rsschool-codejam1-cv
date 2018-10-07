@@ -1,8 +1,8 @@
 body {
-  width: 100%;
-  height: 100%;
   position: relative;
   margin: 0 auto;
+  width: 100%;
+  height: 100%;
 }
 
 .header {
@@ -26,21 +26,21 @@ body {
 }
 
 .about {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
   width: 1024px;
   min-height: 300px;
   margin-top: 25px;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
 }
 
 .info {
   display: block;
   float: left;
   border-width: 5px;
-  border-style: double;
   width: 25%;
   line-height: 25px;
+  border-style: double;
   background: url(..//img/texture.png);
 }
 
@@ -63,25 +63,25 @@ body {
   margin-right: 15px;
 }
 
-.contact ul li{
+.contact ul li {
   display: inline;
   margin: 10px 18px;
   filter: grayscale(100%);
 }
 
 .summary {
-  margin-left: 35px;
   display: inline;
+  margin-left: 35px;
   border-width: 5px;
   border-style: double;
   line-height: 25px;
 }
 
 .summary h2 {
-  text-align: left;
+  margin-left: 15px;
   font-size: 28px;
   line-height: 30px;
-  margin-left: 15px;
+  text-align: left;
 }
 
 .summary p {
@@ -91,31 +91,31 @@ body {
 }
 
 .skills {
-  width: 1024px;
-  min-height: 300px;
+  display: flex;
   margin-top: 25px;
   margin-left: auto;
   margin-right: auto;
-  display: flex;
+  width: 1024px;
+  min-height: 300px;
 }
 
 .additSkills {
-  border-width: 5px;
-  border-style: double;
+  display: flex;
   width: 70%;
   height: auto;
-  display: flex;
+  border-width: 5px;
+  border-style: double;
   justify-content: center;
   align-items: center;
 }
 
 .circle {
-  border-radius: 50%;
-  border: 3px dotted;
+  margin: 10px 10px;
   width: 120px;
   height: 120px;
+  border-radius: 50%;
+  border: 3px dotted;
   text-align: center;
-  margin: 10px 10px;
 }
 
 .circle p {
@@ -123,10 +123,10 @@ body {
 }
 
 .justSkills {
-  border-width: 5px;
-  border-style: double;
   margin-left: 50px;
   width: 300px;
+  border-width: 5px;
+  border-style: double;
   line-height: 35px;
   background: url(..//img/texture.png);
 }
@@ -136,77 +136,76 @@ body {
 }
 
 .toolbar {
-  text-align: left;
   margin-left: 15px;
+  text-align: left;
 }
 
 .toolbar .line {
-  border-bottom: 1px solid;
   width: 90%;
+  border-bottom: 1px solid;
 }
 
 .toolbar .line.Html {
-  border-bottom: 3px solid;
   width: 70%;
+  border-bottom: 3px solid;
 }
 
 .toolbar .line.CSS {
-  border-bottom: 3px solid;
   width: 70%;
+  border-bottom: 3px solid;
 }
 
 .toolbar .line.JS {
-  border-bottom: 3px solid;
   width: 50%;
+  border-bottom: 3px solid;
 }
 
 .toolbar .line.C {
-  border-bottom: 3px solid;
   width: 50%;
+  border-bottom: 3px solid;
 }
 
 .toolbar .line.Assik {
-  border-bottom: 3px solid;
   width: 40%;
+  border-bottom: 3px solid;
 }
 
 .edu {
-  width: 1024px;
-  min-height: 300px;
+  display: flex;
   margin-top: 25px;
   margin-left: auto;
   margin-right: auto;
-  display: flex;
+  width: 1024px;
+  min-height: 300px;
   justify-content: center;
   align-items: stretch;
 }
 
 .cart {
-  width: 200px;
   margin: 15px 25px;
+  width: 200px;
   border: 5px double;
   text-align: center;
   background: url(..//img/texture.png);
 }
 
 .cart h3 {
-  border-bottom: 5px double;
   margin: 10px 10px;
   font-size: 22px;
+  border-bottom: 5px double;
 }
 
 .exp {
-  width: 1024px;
-
-  min-height: 300px;
   margin-top: 25px;
   margin-left: auto;
   margin-right: auto;
+  width: 1024px;
+  min-height: 300px;
 }
 
 .oww {
-  width: 100%;
   margin: 0 auto;
+  width: 100%;
   filter: grayscale(100%);
 }
 
